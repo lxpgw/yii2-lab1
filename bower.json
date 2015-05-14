@@ -1,0 +1,39 @@
+{
+  "name": "yiibasic",
+  "version": "0.0.0",
+  "authors": [
+    "lichunqiang <light-li@hotmail.com>"
+  ],
+  "description": "bower yii2 assets test",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "asset",
+    "yii2",
+    "bower"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.3.0",
+    "json3": "^3.3.0",
+    "es5-shim": "^4.0.0",
+    "angular-animate": "^1.3.0",
+    "angular-sanitize": "^1.3.0",
+    "bootstrap": "^3.3.2",
+    "jquery-form": "~3.46.0",
+    "avalon": "~1.4.0",
+    "angular-bootstrap": "angular-ui/bootstrap-bower#~0.12.1",
+    "angular-route": "angular/bower-angular-route#~1.3.14",
+    "angular-resource": "angular/bower-angular-resource#~1.3.14",
+    "angular-ui-router": "~0.2.13",
+    "ui-select": "angular-ui/ui-select#~0.10.0",
+    "angular-ui-utils": "angular-ui/ui-utils#~0.2.2",
+    "lodash": "~3.4.0",
+    "select2": "~3.5",
+    "ng-notify": "~0.5.3",
+    "moment": "~2.10.3",
+    "angular-strap": "~2.2.1",
+    "angular-bootstrap-datetimepicker": "~0.3.12"
+  }
+}
