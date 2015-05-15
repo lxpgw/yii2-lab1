@@ -1,6 +1,7 @@
 <?php
 
 Yii::setAlias('@tests', dirname(__DIR__) . '/tests');
+Yii::setAlias('@cdn', 'http://www.lab.io');
 
 $params = require(__DIR__ . '/params.php');
 $db = require(__DIR__ . '/db.php');

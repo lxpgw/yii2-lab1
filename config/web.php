@@ -1,4 +1,5 @@
 <?php
+Yii::setAlias('@cdn', 'http://www.lab.io');
 
 $params = require(__DIR__ . '/params.php');
 
@@ -38,9 +39,9 @@ $config = [
             ],
         ],
         'db' => require(__DIR__ . '/db.php'),
-        // 'assetManager' => [
-        //     'bundles' => require 'assets-prod.php'
-        // ]
+        'assetManager' => [
+            'bundles' => require 'assets-prod.php'
+        ]
     ],
     'params' => $params,
 ];

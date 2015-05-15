@@ -18,13 +18,14 @@ return [
         'yii\web\JqueryAsset',
 
         'app\assets\IndexPageAsset',
+        'app\assets\AboutPageAsset',
         // 'app\assets\TestAsset',
     ],
     'targets' => [
         'application' => [
             'class' => 'yii\web\AssetBundle',
             'basePath' => '@webroot/assets',
-            'baseUrl' => '@web/assets',
+            'baseUrl' => '@cdn/assets',
             'js' => 'application-{hash}.js',
             'css' => 'application-{hash}.css',
             'depends' => [
@@ -38,12 +39,23 @@ return [
         'landingpage' => [
         	'class' => 'yii\web\AssetBundle',
         	'basePath' => '@webroot/assets',
-        	'baseUrl' => '@web/assets',
+        	'baseUrl' => '@cdn/assets',
         	'js' => 'index-{hash}.js',
             'css' => 'index-{hash}.css',
         	'depends' => [
-        		'app\assets\IndexPageAsset'
+        		'app\assets\IndexPageAsset',
         	]
+        ],
+        'about' => [
+            'class' => 'yii\web\AssetBundle',
+            'basePath' => '@webroot/assets',
+            'baseUrl' => '@cdn/assets',
+            'js' => 'about-{hash}.js',
+            'css' => 'about-{hash}.css',
+            'depends' => [
+                'app\assets\AboutPageAsset',
+                'app\assets\AngularBootstrapAsset',
+            ]
         ]
     ],
     // Asset manager configuration:
