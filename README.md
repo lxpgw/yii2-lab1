@@ -1,4 +1,6 @@
 实践Yii2资源整合
 ===========
 
-TBD
+## run
+
+> yii asset tools/gulp/assets-config.php config/assets-prod.php
