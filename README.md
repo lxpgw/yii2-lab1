@@ -7,6 +7,12 @@
 * bower
 * gulp
 
+```
+$ npm i gulp -g
+$ cd tools/gulp
+$ npm install
+```
+
 ## 安装示例静态资源
 
 ```
