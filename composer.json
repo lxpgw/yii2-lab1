@@ -25,6 +25,11 @@
         "yiisoft/yii2-gii": "*",
         "yiisoft/yii2-faker": "*"
     },
+    "autoload": {
+        "psr-4": {
+            "light\\tracker\\": "modules\\tracker"
+        }
+    },
     "config": {
         "process-timeout": 1800
     },

@@ -5,6 +5,7 @@ use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use app\assets\AppAsset;
 use app\assets\AngularAppAsset;
+use light\tracker\Tracker;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
@@ -19,6 +20,7 @@ AngularAppAsset::register($this);
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
+    <?= Tracker::init() ?>
     <?php $this->head() ?>
 </head>
 <body>
